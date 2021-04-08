@@ -17,7 +17,7 @@
 
 #### 软件说明
 vim, git, zsh是本安装脚本主要配置的软件，apt-transport-https是apt使用https源所需的软件，psmisc主要为了安装pstree用于验证是否进入systemd，genie是启动systemd所需的软件，antigen是管理zsh插件所需软件
-##使用方法
+## 使用方法
 1. 下载本仓库的zip文件并解压到windows任意路径（这里以C:/script/)为例
 2. 进入kali-wsl环境
 3. 在home目录下运行
