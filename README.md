@@ -2,8 +2,11 @@
 
 ## 说明
 本脚本仅限WSL2，请勿在其他环境中使用。
+
 这是一个个人的Kali wsl2的一键设置脚本，稳定性和安全性未知，如介意请勿使用。
+
 理论上本脚本可以简单替换两个sources.list并注释掉install.sh中的“sudo chmod u+s /usr/bin/ping”一行在其他Debian系系统上使用。
+
 脚本包含内容如下：
 1. 设置vim和zsh样式，zsh使用powerlevel10k主题，并将历史记录保存到~/.zsh_history中
 2. 设置apt中国源，已经添加了[哈工大](https://mirrors.hit.edu.cn/)，[中科大](https://mirrors.ustc.edu.cn/)，[清华](https://mirrors.tuna.tsinghua.edu.cn/)的源，你也可以自己添加合适的源到sources-http.list和sources-https.list，请注意sources-https.list是最后生效的apt源文件
