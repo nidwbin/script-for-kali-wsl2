@@ -42,6 +42,10 @@ Ubuntu wsl2在替换zsh后会出现bug，即不会运行/etc/profile，可以将
 ```
 source /etc/profile
 ```
+DISPLAY变量与xrdp（kex-win的ESM模式）不兼容，使用如下命令修复
+```
+sudo rm /etc/profile.d/.init.d/display.sh
+```
 ## 鸣谢
 [antigen](https://github.com/zsh-users/antigen)
 
