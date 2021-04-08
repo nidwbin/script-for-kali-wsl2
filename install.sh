@@ -29,6 +29,10 @@ sudo sudo cp ./sources-https.list /etc/apt/sources.list
 sudo apt-get update
 sudo apt-get upgrade
 
+echo "fix bug of docker.io"
+sudo update-alternatives --set iptables /usr/sbin/iptables-legacy
+sudo update-alternatives --set ip6tables /usr/sbin/ip6tables-legacy
+
 echo "change shell to zsh..."
 chsh -s /bin/zsh
 
