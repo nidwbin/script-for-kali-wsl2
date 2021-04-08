@@ -41,5 +41,7 @@ source /etc/profile
 ```
 ## 鸣谢
 [antigen](https://github.com/zsh-users/antigen)
+
 [systemd-genie](https://github.com/arkane-systems/genie)
+
 [hyuuko的配置记录](https://www.cnblogs.com/zsmumu/p/archlinux-wsl2.html)
