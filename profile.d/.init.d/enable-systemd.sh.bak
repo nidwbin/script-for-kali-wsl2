@@ -1,0 +1,6 @@
+#! /bin/sh
+if [ $(genie -b) != "inside" ]; then
+    genie -s
+elif [ -f /run/genie.path ]; then
+    export PATH=$PATH:$(cat /run/genie.path)
+fi

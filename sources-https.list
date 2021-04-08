@@ -1,0 +1,8 @@
+deb https://mirrors.hit.edu.cn/kali kali-rolling main contrib non-free
+# deb-src https://mirrors.hit.edu.cn/kali kali-rolling main contrib non-free
+
+deb https://mirrors.ustc.edu.cn/kali kali-rolling main non-free contrib
+# deb-src http://mirrors.ustc.edu.cn/kali kali-rolling main non-free contrib
+
+deb https://mirrors.tuna.tsinghua.edu.cn/kali kali-rolling main contrib non-free
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/kali kali-rolling main contrib non-free
