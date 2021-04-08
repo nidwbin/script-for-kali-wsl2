@@ -32,9 +32,9 @@ vim, git, zsh是本安装脚本主要配置的软件，apt-transport-https是apt
    touch ~/.disable
    ```
 ## 已知问题
-genie会在启动systemd时替换PATH为一个较为安全的PATH，这会导致systemd环境下无法查找到windows的程序，这里提供的解决方法为在脚本运行完后修改/etc/genie.ini文件，将clone_path设置为true，然后使用/etc/profile.d/init.d/enable-systemd.sh.bak替换/etc/profile.d/init.d/enable-systemd.sh。即在修改完/etc/genie.ini文件的clone_path后运行如下代码
+genie会在启动systemd时替换PATH为一个较为安全的PATH，这会导致systemd环境下无法查找到windows的程序，这里提供的解决方法为在脚本运行完后修改/etc/genie.ini文件，将clone_path设置为true，然后使用/etc/profile.d/.init.d/enable-systemd.sh.bak替换/etc/profile.d/.init.d/enable-systemd.sh。即在修改完/etc/genie.ini文件的clone_path后运行如下代码
 ```
-cd /etc/profile.d/init.d
+cd /etc/profile.d/.init.d
 sudo mv enable-systemd.sh.bak enable-systemd.sh
 ```
 
