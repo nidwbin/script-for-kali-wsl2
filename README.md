@@ -38,7 +38,7 @@ cd /etc/profile.d/init.d
 sudo mv enable-systemd.sh.bak enable-systemd.sh
 ```
 
-genie可能会出现无限等待情况，请将/etc/genie.ini中的systemd-timeout设置为较短时间即可解决
+genie可能会出现无限等待情况，请将/etc/genie.ini中的systemd-timeout设置为较短时间即可解决，此问题只会出现在wsl2开机的时候。
 
 Ubuntu wsl2在替换zsh后会出现bug，即不会运行/etc/profile，可以将如下代码添加到.zshrc文件尾来修复
 ```
