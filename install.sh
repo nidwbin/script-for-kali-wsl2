@@ -5,7 +5,7 @@ cp ./.vimrc ~/
 
 
 echo "install some soot scripts and antigen.zsh, change apt source file..."
-sudo cp -r ./profile.d /etc/profile.d
+sudo cp ./profile.d/init.sh /etc/profile.d
 sudo cp -r ./profile.d/.init.d /etc/profile.d/.init.d
 
 sudo cp ./antigen.zsh /usr/share/zsh/
