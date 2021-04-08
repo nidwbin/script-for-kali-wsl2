@@ -1,4 +1,4 @@
 #! /bin/sh
 if [ $(genie -b) != "inside" ]; then
-	genie -s
+    genie -s
 fi
